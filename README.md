@@ -18,9 +18,6 @@ Description of the files included
 |`computerMove()` | This function represents the actions of the computer, and it follows the order of the `aiOrder[]` array.|
 |`checkCombination()` | This function is the most generic function in the code, but also the most complex, it checks the users and computers progress in the game, and compares it to the list of valid combinations in the game rules.  This function also determines the completion of the game, whether it’s the user or the computer that wins, or if a draw, or ‘tie’ is encountered.|
 
-##jQuery
-The game makes use of the jQuery Javascript library. I would have been able to produce this without jQuery, however it would have resulted in much more code, and it also afforded me the opportunity to add minor flourishes to the appearance of several game elements in the form of fades etc. jQuery also makes the code more succinct and readable, and removes the need for constant execution of DOM functions for simple element retrieval.
- 
 ##The approach / problem solving (my thinking)
 Initially I started out with the layout of the markup. As I was later to discover, some examples of the game on the web, used a table to layout the ‘panels’ (as I called them) of the game. I found this unnecessary and even problematic to the games logic. I instead chose a linear sequence of divs, floated left within a fixed width container to simulate the appearance of a game grid. This then enabled me to conceptualize the game in a linear way. I set about working out the games rules by mapping the winning ‘moves ‘onto this linear sequence of panels.
 
