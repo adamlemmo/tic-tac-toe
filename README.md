@@ -61,11 +61,8 @@ http://vikasrao.wordpress.com/tag/javascript-array-comparison/
 I chose a relatively simple interface, with a straightforward left to right layout, to leverage intuitive ideas that hopefully the user would appreciate, however without user testing, this is largely unknown. I deliberately stayed away from a modal dialog for feedback, as my experience has told me that it’s best not to obscure content from the user, and in the case of this game, when feedback appears, it was hiding the outcome of the game, which is both bad if the user wins or loses. Buttons were styled the same, as to assist the user in identifying them as elements to select.
 
 #Improvements/Opportunities
-The AI of the game is reasonably easy to defeat, as it’s merely a sequence of steps that the “computer” player undertakes. I started but did not complete, work on a more intelligent AI, that would actively block the users attempts to get a winning sequence, this proved difficult due to time constraints and other factors.
-The graphic design, while simple and clean, could stand to have more time spent on it, I thought it might be a cute idea to assign avatars/icons to the “characters” turning them into colourful identities of their own, which could potentially alter the feel of the game entirely, and turn it into a new experience.
+1. The AI of the game is reasonably easy to defeat, as it’s merely a sequence of steps that the “computer” player undertakes. I started but did not complete, work on a more intelligent AI, that would actively block the users attempts to get a winning sequence, this proved difficult due to time constraints and other factors.
+2. The graphic design, while simple and clean, could stand to have more time spent on it, I thought it might be a cute idea to assign avatars/icons to the “characters” turning them into colourful identities of their own, which could potentially alter the feel of the game entirely, and turn it into a new experience.
 
-#Developer update support
+#Comments to document code
 The code in [js/game.js](js/game.js) is well documented in the form of comments almost line-by-line in the code. I find this to help my own development after I finish a major piece of code, as it helps me to consolidate the thought processes I undertook while programming, and also to help me to understand the flow of the program long after I have completed the project, and moved on. This in turn would assist another person to read the code I have produced. If another developer were to approach this code, I would recommend starting at the top of the [js/game.js](js/game.js) file and following the running commentary of the documented comments.
-
-#Disclaimer
-This code was written entirely by me, with the exception of the jQuery library. 
