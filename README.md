@@ -53,8 +53,9 @@ During the development of the game, I researched several pages like the followin
 | Link Reference       | Description           | 
 |:------------- |:-------------| 
 |http://www.javascriptkit.com/script/script2/tactoe.shtml| This page gave me insight into the rules of the computer player/AI, I was a bit disappointed with the repetitious code however, so I made my logic loop through the rules instead.|
-|http://stackoverflow.com/questions/1282528/compare-array-in-javascript|http://stackoverflow.com/questions/6229197/how-to-know-if-two-arrays-have-the-same-values|
-|http://vikasrao.wordpress.com/tag/javascript-array-comparison/||
+|http://stackoverflow.com/questions/1282528/compare-array-in-javascript | Compare array in javascript|
+|http://stackoverflow.com/questions/6229197/how-to-know-if-two-arrays-have-the-same-values | How to know if two arrays have the same values|
+|http://vikasrao.wordpress.com/tag/javascript-array-comparison/ | JavaScript – Common Array operations |
  
 I didn't use any code from any of the links above, merely as inspiration for how these types of games and logic work.
 
