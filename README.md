@@ -44,7 +44,7 @@ I took the following steps to ensure a moderate level of WCAG/Usability complian
 *	The size of fonts in the game we taken into consideration, large and clear.
 *	Text was used instead of graphics for the “X” and “O” characters of the game.
 *	Hyperlinks were used where appropriate, so that native keyboard access of selectable areas is possible.
-*	Radio/Form controls was used for optional character selection.
+*	Radio/Form controls are used for optional character selection.
 
 #References
 I did not use any code from any of the following links, I merely used them as inspiration for my own development.
