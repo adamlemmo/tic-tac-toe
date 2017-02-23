@@ -38,8 +38,8 @@ diag1 = [1, 5, 9];
 diag2 = [3, 5, 7];
 ```
 
-#My WCAG and Usability approach
-I took the following steps to ensure a moderate level of WCAG/Usability compliance.
+#Accessibility / Usability
+I took the following steps to ensure a moderate level of Accessibility / Usability.
 *	I ensured that the colours I chose for the layout were of sufficient contrast.
 *	The size of fonts in the game we taken into consideration, large and clear.
 *	Text was used instead of graphics for the “X” and “O” characters of the game.
