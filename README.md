@@ -10,10 +10,13 @@ Description of the files included
 |[js/game.js](js/game.js) | The main javascript file, contains most of the code for the functionality of the game.|
 
 ##Function breakdown ([js/game.js](js/game.js))
-`startGame()` – This function as it states, starts the game, it is triggered from the startBtn link. 
-`selectPanel()` – This function is triggered from the panels in the layout of the game, it is a central function to the game, and represents the users actions in the game.
-`computerMove()` – This function represents the actions of the computer, and it follows the order of the `aiOrder[]` array.
-`checkCombination()` – This function is the most generic function in the code, but also the most complex, it check the users and the computers progress in the game, and compares it to the list of valid combinations in the game rules.  This function also determines the completion of the game, whether it’s the use or the computer that wins, or if a draw, or ‘tie’ is encountered.
+
+| Function       | Description           | 
+|:------------- |:-------------| 
+|`startGame()` | This function as it states, starts the game, it is triggered from the startBtn link. |
+|`selectPanel()` | This function is triggered from the panels in the layout of the game, it is a central function to the game, and represents the users actions in the game.|
+|`computerMove()` | This function represents the actions of the computer, and it follows the order of the `aiOrder[]` array.|
+|`checkCombination()` | This function is the most generic function in the code, but also the most complex, it check the users and the computers progress in the game, and compares it to the list of valid combinations in the game rules.  This function also determines the completion of the game, whether it’s the use or the computer that wins, or if a draw, or ‘tie’ is encountered.|
 
 ##jQuery
 The game makes use of the jQuery Javascript library. I would have been able to produce this without jQuery, however it would have resulted in much more code, and it also afforded me the opportunity to add minor flourishes to the appearance of several game elements in the form of fades etc. jQuery also makes the code more succinct and readable, and removes the need for constant execution of DOM functions for simple element retrieval.
