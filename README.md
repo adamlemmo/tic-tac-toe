@@ -1,6 +1,6 @@
-#How the module works (the logic)
+#Tic Tac Toe game - Adam Lemmo - 2017-02-23
 
-The game contains the following files:-
+Description of the files included
 
 | File name and path       | Description           | 
 |:------------- |:-------------| 
@@ -9,7 +9,7 @@ The game contains the following files:-
 |[js/jquery.js](js/jquery.js) | The javascript library that game.js refers to. |
 |[js/game.js](js/game.js) | The main javascript file, contains most of the code for the functionality of the game.|
 
-##Function breakdown (game.js)
+##Function breakdown ([js/game.js](js/game.js))
 `startGame()` – This function as it states, starts the game, it is triggered from the startBtn link. 
 `selectPanel()` – This function is triggered from the panels in the layout of the game, it is a central function to the game, and represents the users actions in the game.
 `computerMove()` – This function represents the actions of the computer, and it follows the order of the `aiOrder[]` array.
