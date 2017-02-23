@@ -59,7 +59,7 @@ During the development of the game, I researched several pages like the followin
  
 I didn't use any code from any of the links above, merely as inspiration for how these types of games and logic work.
 
-#Interface and design for the target audience
+#User Interface design
 I chose a relatively simple interface, with a straightforward left to right layout, to leverage intuitive ideas that hopefully the user would appreciate, however without user testing, this is largely unknown. I deliberately stayed away from a modal dialog for feedback, as my experience has told me that it’s best not to obscure content from the user, and in the case of this game, when feedback appears, it was hiding the outcome of the game, which is both bad if the user wins or loses. Buttons were styled the same, as to assist the user in identifying them as elements to select.
 
 #Issues
