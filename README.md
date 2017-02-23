@@ -4,16 +4,16 @@ The game contains the following files:-
 
 | File name and path       | Description           | 
 |:------------- |:-------------| 
-|game.htm | The HMTL file that contains most of the content of the game.|
-|css/game.css | All css styles are contained within this file. |
-|js/jquery.js | The javascript library that game.js refers to. |
-|js/game.js | The main javascript file, contains most of the code for the functionality of the game.|
+|[game.htm](game.htm) | The HMTL file that contains most of the content of the game.|
+|[css/game.css](css/game.css) | All css styles are contained within this file. |
+|[js/jquery.js](js/jquery.js) | The javascript library that game.js refers to. |
+|[js/game.js](js/game.js) | The main javascript file, contains most of the code for the functionality of the game.|
 
 ##Function breakdown (game.js)
-startGame() – This function as it states, starts the game, it is triggered from the startBtn link. 
-selectPanel() – This function is triggered from the panels in the layout of the game, it is a central function to the game, and represents the users actions in the game.
-computerMove() – This function represents the actions of the computer, and it follows the order of the aiOrder[] array.
-checkCombination() – This function is the most generic function in the code, but also the most complex, it check the users and the computers progress in the game, and compares it to the list of valid combinations in the game rules.  This function also determines the completion of the game, whether it’s the use or the computer that wins, or if a draw, or ‘tie’ is encountered.
+`startGame()` – This function as it states, starts the game, it is triggered from the startBtn link. 
+`selectPanel()` – This function is triggered from the panels in the layout of the game, it is a central function to the game, and represents the users actions in the game.
+`computerMove()` – This function represents the actions of the computer, and it follows the order of the `aiOrder[]` array.
+`checkCombination()` – This function is the most generic function in the code, but also the most complex, it check the users and the computers progress in the game, and compares it to the list of valid combinations in the game rules.  This function also determines the completion of the game, whether it’s the use or the computer that wins, or if a draw, or ‘tie’ is encountered.
 
 ##jQuery
 The game makes use of the jQuery Javascript library. I would have been able to produce this without jQuery, however it would have resulted in much more code, and it also afforded me the opportunity to add minor flourishes to the appearance of several game elements in the form of fades etc. jQuery also makes the code more succinct and readable, and removes the need for constant execution of DOM functions for simple element retrieval.
@@ -56,7 +56,8 @@ http://vikasrao.wordpress.com/tag/javascript-array-comparison/
 
 #Interface and design for the target audience
 I chose a relatively simple interface, with a straightforward left to right layout, to leverage intuitive ideas that hopefully the user would appreciate, however without user testing, this is largely unknown. I deliberately stayed away from a modal dialog for feedback, as my experience has told me that it’s best not to obscure content from the user, and in the case of this game, when feedback appears, it was hiding the outcome of the game, which is both bad if the user wins or loses. Buttons were styled the same, as to assist the user in identifying them as elements to select.
-Improvements/Opportunities
+
+#Improvements/Opportunities
 The AI of the game is reasonably easy to defeat, as it’s merely a sequence of steps that the “computer” player undertakes. I started but did not complete, work on a more intelligent AI, that would actively block the users attempts to get a winning sequence, this proved difficult due to time constraints and other factors.
 The graphic design, while simple and clean, could stand to have more time spent on it, I thought it might be a cute idea to assign avatars/icons to the “characters” turning them into colourful identities of their own, which could potentially alter the feel of the game entirely, and turn it into a new experience.
 
