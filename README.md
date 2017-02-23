@@ -20,6 +20,10 @@ Initially I started out with the layout of the markup. As I was later to discove
 
 ![alt text](doc/tic-tac-toe-sketch.png)
 
+This was then uses as a basis for the game rules I created in the game, in the form of several arrays of numbers that the games code would reference to determine correctness from either player.
+
+_Code example 1:- The arrays storing the games rules._
+
 ```javascript
 row1 = [1, 2, 3];
 row2 = [4, 5, 6];
