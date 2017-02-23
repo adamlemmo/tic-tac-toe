@@ -13,7 +13,7 @@ Description of the files included
 
 | Function       | Description           | 
 |:------------- |:-------------| 
-|`startGame()` | This function as it states, starts the game, it is triggered from the startBtn link. |
+|`startGame()` | This function as it states, starts the game, it is triggered from the `startBtn` link. |
 |`selectPanel()` | This function is triggered from the panels in the layout of the game, it is a central function to the game, and represents the users actions in the game.|
 |`computerMove()` | This function represents the actions of the computer, and it follows the order of the `aiOrder[]` array.|
 |`checkCombination()` | This function is the most generic function in the code, but also the most complex, it check the users and the computers progress in the game, and compares it to the list of valid combinations in the game rules.  This function also determines the completion of the game, whether it’s the use or the computer that wins, or if a draw, or ‘tie’ is encountered.|
