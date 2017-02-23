@@ -47,14 +47,16 @@ I took the following steps to ensure a moderate level of WCAG/Usability complian
 *	Radio/Form controls are used for optional character selection.
 
 #References
-I did not use any code from any of the following links, I merely used them as inspiration for my own development.
 
-http://www.javascriptkit.com/script/script2/tactoe.shtml - This page gave me insight into the rules of the computer player/AI, I was a bit disappointed with the repetitious code however, so I made my logic loop through the rules instead.
+During the development of the game, I researched several pages like the following on stackoverflow (and other sites) for help working with array comparison functions, which I ultimately never used. I found that I either didn’t need to use this functionality, or that it didn’t directly assist me with the issues I was facing.
 
-http://stackoverflow.com/questions/1282528/compare-array-in-javascript
-http://stackoverflow.com/questions/6229197/how-to-know-if-two-arrays-have-the-same-values
-http://vikasrao.wordpress.com/tag/javascript-array-comparison/
-During the development of the game, I researched several pages like these on stackoverflow (and other sites) for help working with array comparison functions, which I never used. I found that I either didn’t need to use this functionality, or that it didn’t directly assist me with the issues I was facing.
+| Link Reference       | Description           | 
+|:------------- |:-------------| 
+|http://www.javascriptkit.com/script/script2/tactoe.shtml| This page gave me insight into the rules of the computer player/AI, I was a bit disappointed with the repetitious code however, so I made my logic loop through the rules instead.|
+|http://stackoverflow.com/questions/1282528/compare-array-in-javascript|http://stackoverflow.com/questions/6229197/how-to-know-if-two-arrays-have-the-same-values|
+|http://vikasrao.wordpress.com/tag/javascript-array-comparison/||
+ 
+I didn't use any code from any of the links above, merely as inspiration for how these types of games and logic work.
 
 #Interface and design for the target audience
 I chose a relatively simple interface, with a straightforward left to right layout, to leverage intuitive ideas that hopefully the user would appreciate, however without user testing, this is largely unknown. I deliberately stayed away from a modal dialog for feedback, as my experience has told me that it’s best not to obscure content from the user, and in the case of this game, when feedback appears, it was hiding the outcome of the game, which is both bad if the user wins or loses. Buttons were styled the same, as to assist the user in identifying them as elements to select.
