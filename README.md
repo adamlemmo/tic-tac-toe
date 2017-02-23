@@ -1,10 +1,13 @@
 #How the module works (the logic)
 
 The game contains the following files:-
-Game.htm – The HMTL file that contains most of the content of the game.
-Css/game.css – All css styles are contained within this file.
-Js/jquery.js  - The javascript library that game.js refers to. 
-Js/game.js – The main javascript file, contains most of the code for the functionality of the game.
+
+| File name and path       | Description           | 
+|:------------- |:-------------| 
+|game.htm | The HMTL file that contains most of the content of the game.|
+|css/game.css | All css styles are contained within this file. |
+|js/jquery.js | The javascript library that game.js refers to. |
+|js/game.js | The main javascript file, contains most of the code for the functionality of the game.|
 
 ##Function breakdown (game.js)
 startGame() – This function as it states, starts the game, it is triggered from the startBtn link. 
