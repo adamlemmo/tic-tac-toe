@@ -55,12 +55,12 @@ http://www.javascriptkit.com/script/script2/tactoe.shtml - This page gave me ins
 http://stackoverflow.com/questions/1282528/compare-array-in-javascript
 http://stackoverflow.com/questions/6229197/how-to-know-if-two-arrays-have-the-same-values
 http://vikasrao.wordpress.com/tag/javascript-array-comparison/
- - I consulted many pages like these on stackoverflow (and other sites) for assistance in array comparison functions, which I never used, but nevertheless I consulted these resources during the development of the game. I found that I either didn’t need to use this functionality, or that it didn’t directly assist me with the issues I was facing.
+During the development of the game, I researched several pages like these on stackoverflow (and other sites) for help working with array comparison functions, which I never used. I found that I either didn’t need to use this functionality, or that it didn’t directly assist me with the issues I was facing.
 
 #Interface and design for the target audience
 I chose a relatively simple interface, with a straightforward left to right layout, to leverage intuitive ideas that hopefully the user would appreciate, however without user testing, this is largely unknown. I deliberately stayed away from a modal dialog for feedback, as my experience has told me that it’s best not to obscure content from the user, and in the case of this game, when feedback appears, it was hiding the outcome of the game, which is both bad if the user wins or loses. Buttons were styled the same, as to assist the user in identifying them as elements to select.
 
-#Improvements/Opportunities
+#Issues
 1. The AI of the game is reasonably easy to defeat, as it’s merely a sequence of steps that the “computer” player undertakes. I started but did not complete, work on a more intelligent AI, that would actively block the users attempts to get a winning sequence, this proved difficult due to time constraints and other factors.
 2. The graphic design, while simple and clean, could stand to have more time spent on it, I thought it might be a cute idea to assign avatars/icons to the “characters” turning them into colourful identities of their own, which could potentially alter the feel of the game entirely, and turn it into a new experience.
 
