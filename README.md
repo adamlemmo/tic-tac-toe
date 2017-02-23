@@ -51,7 +51,9 @@ I took the following steps to ensure a moderate level of WCAG/Usability complian
 
 #References
 I did not use any code from any of the following links, I merely used them as inspiration for my own development.
+
 http://www.javascriptkit.com/script/script2/tactoe.shtml - This page gave me insight into the rules of the computer player/AI, I was a bit disappointed with the repetitious code however, so I made my logic loop through the rules instead.
+
 http://stackoverflow.com/questions/1282528/compare-array-in-javascript
 http://stackoverflow.com/questions/6229197/how-to-know-if-two-arrays-have-the-same-values
 http://vikasrao.wordpress.com/tag/javascript-array-comparison/
